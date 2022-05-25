@@ -12,7 +12,7 @@ public class Advisor extends Employee implements Authenticable {
         return this.salary * 1.5;
 
     }
-
+    
     public Boolean login (String user, String password) {
         System.debug('Avisor super login '+ user + ' ' +password);
         return true;
